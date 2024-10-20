@@ -1,0 +1,117 @@
+# ---------------------------------
+# COMMONS
+# ---------------------------------
+
+# Git
+!.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Development
+*.o
+*.log
+*.dat
+*.local
+.env
+*.env*.local
+!.env.example
+perfs
+perf.out
+perf.ps
+logs
+coverage
+
+# ---------------------------------
+# LANGUAGE-SPECIFIC
+# ---------------------------------
+
+# Nodejs
+node_modules
+pnpm-debug.log*
+dist
+build
+lib
+bins
+build.metadata.json
+
+# Rust
+target
+
+# Python
+venv
+.venv
+*.pyc
+
+# Deno
+.deno
+
+# ---------------------------------
+# TOOL-SPECIFIC
+# ---------------------------------
+
+# Moonrepo
+.moon/cache
+.moon/docker
+.moon/hooks
+
+# Infisical
+.secrets_*
+.infisical.json
+
+# hurl
+*.local.hurl
+
+# Firebase
+.firebase
+firebase-*.log
+
+# cypress
+cypress/videos
+cypress/screenshots
+
+# Storybook
+storybook-static
+
+# Quasar
+.quasar
+src-cordova/node_modules
+src-cordova/platforms
+src-cordova/plugins
+src-cordova/www
+src-capacitor/www
+src-capacitor/node_modules
+src-bex/www
+src-bex/js/core
+
+# Nuxt
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+# Aider
+.aider*
+
+# Socketsupply
+.sscrc
+*.mobileprovision
+
+# Megalinter
+megalinter-reports
+# core
+# !packages/sdk-vue3/src/core
+*_cspell.txt
+.ruff_cache

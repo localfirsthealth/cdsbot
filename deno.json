@@ -1,0 +1,12 @@
+{
+  "tasks": {
+    "start": "deno run -A src/server.js",
+    "dev": "deno run --watch -A src/server.js",
+    "compile": "deno compile -A --output=bins/cdsbot src/server.js"
+  },
+  "imports": {
+    "@/": "./src/",
+    "oak": "https://deno.land/x/oak@v11.1.0/mod.ts",
+    "cors": "https://deno.land/x/cors@v1.2.2/mod.ts"
+  }
+}
